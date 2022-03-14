@@ -97,7 +97,7 @@ func copyFile(name string, sourceDir string, targetDir string) {
 	fmt.Printf("复制文件：%v\n", name)
 	target := strings.Replace(name, sourceDir, targetDir, 1)
 	fmt.Printf("=>%v\n\n", target)
-	cp := exec.Command("cp", name, target)
+	cp := exec.Command("cp", "-r", name, target)
 	cp.Run()
 }
 
