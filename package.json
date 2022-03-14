@@ -1,5 +1,5 @@
 {
-  "name": "file-watchman",
+  "name": "lwj-file-watchman",
   "version": "1.0.2",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/zlx362211854/watchman.git"
   },
   "bin": {
-    "file-watchman": "./bin/index.js"
+    "lwj-file-watchman": "./bin/index.js"
   },
   "files": [
     "bin"
